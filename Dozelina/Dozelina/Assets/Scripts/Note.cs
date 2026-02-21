@@ -11,7 +11,7 @@ public class Note : MonoBehaviour
 
     private Vector3 startPos;
     private Quaternion startRot;
-
+    private static readonly Quaternion NOTE_ROT = Quaternion.Euler(90f, 0f, 90f);
     private void Awake()
     {
         if (useLocal)
@@ -22,7 +22,7 @@ public class Note : MonoBehaviour
         else
         {
             startPos = transform.position;
-            startRot = Quaternion.identity;
+            startRot = transform.rotation; 
         }
     }
 
@@ -41,18 +41,18 @@ public class Note : MonoBehaviour
     {
         if (!notePos)
         {
-            Debug.LogWarning("[Note] notePos nie jest podpiête!");
             return;
         }
 
         if (useLocal)
         {
             transform.localPosition = notePos.localPosition;
-            transform.localRotation = notePos.localRotation;
+            transform.localRotation = NOTE_ROT;
         }
         else
         {
-            transform.SetPositionAndRotation(notePos.position, notePos.rotation);
+            transform.position = notePos.position;
+            transform.rotation = NOTE_ROT;
         }
     }
 

@@ -16,7 +16,8 @@ public class OpenWeapon : MonoBehaviour
 
     [Header("Minigame")]
     [SerializeField] private WiresGameManager wiresGame;
-    [SerializeField] private float delayBeforeMinigame = 1.0f;
+    [SerializeField] private GameObject weapon;
+    [SerializeField] private float delayBeforeMinigame = .2f;
 
     private float defaultFOV;
     private bool isAnimating;
@@ -26,7 +27,7 @@ public class OpenWeapon : MonoBehaviour
         if (!cam) cam = Camera.main;
         if (!cam) Debug.LogError("[OpenWeapon] Brak kamery (Camera.main). Sprawdü tag MainCamera.");
 
-        defaultFOV = cam ? cam.fieldOfView : 60f;
+        defaultFOV = cam ? cam.fieldOfView : 70f;
         Debug.Log($"[OpenWeapon] Start | cam={(cam ? cam.name : "null")} defaultFOV={defaultFOV}");
     }
 
@@ -43,6 +44,8 @@ public class OpenWeapon : MonoBehaviour
         if (hit.collider.transform == window || hit.collider.transform.IsChildOf(window))
         {
             StartCoroutine(OpenAndStartMinigame());
+            float weaponUp = 1f;
+            Vector3.Lerp(weapon.transform.position, weapon.transform.up, weaponUp);
         }
     }
 

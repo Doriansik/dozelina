@@ -22,7 +22,7 @@ public class Note : MonoBehaviour
         else
         {
             startPos = transform.position;
-            startRot = transform.rotation;
+            startRot = Quaternion.identity;
         }
     }
 

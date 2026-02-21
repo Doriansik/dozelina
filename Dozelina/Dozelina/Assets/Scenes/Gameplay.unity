@@ -790,7 +790,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4751175611427919624, guid: 5443cbd9806414b4b8933f6f2b3d2bd5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5823427554517230650, guid: 5443cbd9806414b4b8933f6f2b3d2bd5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3048,7 +3048,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalWires: 4
   panelRoot: {fileID: 1812768213}
-  queue: {fileID: 474015335}
   openWeapon: {fileID: 1642439756}
 --- !u!1 &2106446199 stripped
 GameObject:

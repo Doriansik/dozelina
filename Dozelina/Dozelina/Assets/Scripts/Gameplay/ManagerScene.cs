@@ -20,4 +20,13 @@ public class ManagerScene : MonoBehaviour
     {
         SceneManager.LoadScene("Gameplay"); // nazwa sceny gameplay
     }
+
+    public void LoadBuildScene()
+    {
+        SceneManager.LoadScene("Build1");
+    }
+    public void LoadBuild2Scene()
+    {
+        SceneManager.LoadScene("Build2");
+    }
 }

@@ -33,6 +33,7 @@ public class WireSlot : MonoBehaviour, IDropHandler
             wire.Hide();
             HideSlot();
 
+
             WiresGameManager.Instance.WireCompleted();
         }
         else

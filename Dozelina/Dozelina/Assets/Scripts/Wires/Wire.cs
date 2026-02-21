@@ -58,6 +58,6 @@ public class Wire : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
     public void Hide()
     {
-        gameObject.SetActive(false); // albo Destroy(gameObject)
+        Destroy(gameObject); 
     }
 }

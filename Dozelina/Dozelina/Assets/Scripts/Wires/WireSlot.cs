@@ -25,15 +25,15 @@ public class WireSlot : MonoBehaviour, IDropHandler
         var wire = dragged.GetComponent<Wire>();
         if (wire == null) return;
 
-        // ✅ dobry kwadracik?
         if (ColorsEqual(wire.WireColor, expectedColor))
         {
             done = true;
 
-            // “zalicz” i zniknijcie
             wire.SnapTo(transform);
             wire.Hide();
             HideSlot();
+
+            WiresGameManager.Instance.WireCompleted();
         }
         else
         {

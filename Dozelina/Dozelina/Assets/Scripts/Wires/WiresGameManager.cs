@@ -13,6 +13,8 @@ public class WiresGameManager : MonoBehaviour
     [Header("Refs")]
     [SerializeField] private OpenWeapon openWeapon;
 
+    [SerializeField] private Animator animator;
+
     private int remaining;
     private bool active;
 
@@ -45,6 +47,7 @@ public class WiresGameManager : MonoBehaviour
         {
             panelRoot.SetActive(false);
             ManagerScene.Instance.LoadBuildScene();
+            animator.SetBool("IsMoving", true);
         }
     }
 }

@@ -1,8 +1,12 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DraggablePart3D : MonoBehaviour
 {
     public float followSpeed = 25f;
+    [SerializeField] private Animator animator;
+    [SerializeField] private GameObject weaponParticle;
 
     private Vector3 startPos;
     private Quaternion startRot;
@@ -29,9 +33,15 @@ public class DraggablePart3D : MonoBehaviour
 
     public void LockTo(Transform snapPoint)
     {
+        Vector3 offset = Vector3.up;
+        ParticleManager.Instance.SpawnDoneEffect(weaponParticle.transform.position, weaponParticle.transform.rotation);
+
         locked = true;
         transform.position = snapPoint.position;
         transform.rotation = snapPoint.rotation;
+
+        CameraShake.Instance.InduceStress(.1f);
+        StartCoroutine(WaitToChangeScene());
 
         if (TryGetComponent<Rigidbody>(out var rb))
         {
@@ -39,6 +49,14 @@ public class DraggablePart3D : MonoBehaviour
             rb.linearVelocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
         }
+    }
+
+    private IEnumerator WaitToChangeScene()
+    {
+        float waitToChange = 3f;
+        yield return new WaitForSeconds(waitToChange);
+        SceneManager.LoadScene("Menu");
+
     }
 
     public bool IsLocked => locked;

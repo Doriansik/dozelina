@@ -11,12 +11,16 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private GameObject creditsButton;
     [SerializeField] private GameObject quitButton;
 
+    [SerializeField] private Animator animator;
+
     private float timeToQuit = 1f;
 
 
     public void OnPlayGame()
     {
         SceneManager.LoadScene("Build");
+        animator.SetTrigger("Blink");
+
     }
 
     public void OnCredits()

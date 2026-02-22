@@ -30,11 +30,6 @@ public class WiresGameManager : MonoBehaviour
         active = true;
 
         if (panelRoot) panelRoot.SetActive(true);
-
-
-        // Jeœli gdzieœ pauzujesz grê timeScale=0, zostaw — OpenWeapon i tak dzia³a na unscaled.
-        // Jeœli nie chcesz pauzy, upewnij siê ¿e Time.timeScale = 1
-        // Time.timeScale = 1f;
     }
 
     public void WireCompleted()

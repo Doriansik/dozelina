@@ -14745,6 +14745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 41773798}
   - component: {fileID: 41773797}
+  - component: {fileID: 41773799}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -14790,6 +14791,37 @@ Transform:
   - {fileID: 1572991381}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &41773799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41773796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1228721101
+      Data2: 1180246378
+      Data3: -1468446020
+      Data4: -1696717519
+    Path: event:/entrance bell METAL ARMOR
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &53836546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71143,7 +71175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1260180101615479013, guid: 297b3f1883606a344b1ae2eeda771faf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4269086056934543480, guid: 297b3f1883606a344b1ae2eeda771faf, type: 3}
       propertyPath: m_Pivot.x
@@ -125603,6 +125635,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5cd257a5052164442b26aea605dba084, type: 3}
   m_PrefabInstance: {fileID: 818258017}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1141486592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1141486594}
+  - component: {fileID: 1141486593}
+  m_Layer: 0
+  m_Name: Ambient
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1141486593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141486592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 674355786
+      Data2: 1125557998
+      Data3: -488646781
+      Data4: -745874240
+    Path: event:/ambient_loop
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &1141486594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141486592}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1175908417
 GameObject:
   m_ObjectHideFlags: 0
@@ -160966,6 +161061,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1431246513}
+  speechEvent:
+    Guid:
+      Data1: 835143377
+      Data2: 1318396202
+      Data3: -103658575
+      Data4: -187071622
+    Path: event:/metalarmor voice
 --- !u!95 &1431246513 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 3692879905989206468, guid: 3c7896956fbfb23489bcdcc9c5b13fd8, type: 3}
@@ -175485,9 +175587,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1470046440}
   - component: {fileID: 1470046439}
-  - component: {fileID: 1470046438}
   - component: {fileID: 1470046441}
   - component: {fileID: 1470046442}
+  - component: {fileID: 1470046444}
   - component: {fileID: 1470046443}
   m_Layer: 0
   m_Name: Main Camera
@@ -175496,14 +175598,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1470046438
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470046437}
-  m_Enabled: 1
 --- !u!20 &1470046439
 Camera:
   m_ObjectHideFlags: 0
@@ -175630,6 +175724,13 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 4294967295
+  clickEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &1470046443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175647,6 +175748,20 @@ MonoBehaviour:
   frequency: 25
   traumaExponent: 1
   recoverySpeed: 1
+--- !u!114 &1470046444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470046437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!4 &1473368011 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 17acdb34e0406e14fa166de7cd412257, type: 3}
@@ -242465,3 +242580,4 @@ SceneRoots:
   - {fileID: 1984160106}
   - {fileID: 1492878227}
   - {fileID: 1483581558}
+  - {fileID: 1141486594}

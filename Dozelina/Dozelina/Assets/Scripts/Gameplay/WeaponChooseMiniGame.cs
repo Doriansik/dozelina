@@ -17,6 +17,9 @@ public class WeaponChooseMiniGame : MonoBehaviour
     [SerializeField] private GameObject transformPointLeft;
     [SerializeField] private GameObject transformPointRight;
 
+    [SerializeField] private FMODUnity.EventReference buttonSound;
+
+
     private bool isWeaponSelected;
     private bool isRotating;
 
@@ -39,12 +42,14 @@ public class WeaponChooseMiniGame : MonoBehaviour
 
         if (hit.collider.gameObject == leftArrow || hit.collider.transform.IsChildOf(leftArrow.transform))
         {
+            FMODUnity.RuntimeManager.PlayOneShot(buttonSound);
             StartCoroutine(RotateBy(-stepAngle));
             StartCoroutine(MoveTo(transformPointLeft.transform.position));
             StartCoroutine(RotateWeaponBy(-stepAngle));
         }
         else if (hit.collider.gameObject == rightArrow || hit.collider.transform.IsChildOf(rightArrow.transform))
         {
+            FMODUnity.RuntimeManager.PlayOneShot(buttonSound);
             StartCoroutine(RotateBy(stepAngle));
             StartCoroutine(MoveTo(transformPointRight.transform.position));
             StartCoroutine(RotateWeaponBy(stepAngle));

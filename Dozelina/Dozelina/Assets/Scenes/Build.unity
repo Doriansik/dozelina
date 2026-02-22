@@ -59342,6 +59342,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1745777792}
+  speechEvent:
+    Guid:
+      Data1: -1203031509
+      Data2: 1305492235
+      Data3: -243390551
+      Data4: 1511879961
+    Path: event:/lotnik_voice
 --- !u!4 &203657229
 Transform:
   m_ObjectHideFlags: 0
@@ -136098,6 +136105,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0f216c10f5934a94da0fcf7ebcdc45b1, type: 3}
   m_PrefabInstance: {fileID: 502183034}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1200365752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1200365754}
+  - component: {fileID: 1200365753}
+  m_Layer: 0
+  m_Name: Ambient
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1200365753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200365752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 674355786
+      Data2: 1125557998
+      Data3: -488646781
+      Data4: -745874240
+    Path: event:/ambient_loop
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &1200365754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200365752}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1200467747
 GameObject:
   m_ObjectHideFlags: 0
@@ -186811,6 +186881,13 @@ MonoBehaviour:
   weapon: {fileID: 1657094847}
   transformPointLeft: {fileID: 669475883}
   transformPointRight: {fileID: 141260903}
+  buttonSound:
+    Guid:
+      Data1: 124022626
+      Data2: 1275841721
+      Data3: -19419736
+      Data4: -1224894211
+    Path: event:/click button
 --- !u!65 &1657094850
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -192466,6 +192543,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1758186762}
   - component: {fileID: 1758186763}
+  - component: {fileID: 1758186764}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -192511,6 +192589,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1758186764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758186761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1665575053
+      Data2: 1152699118
+      Data3: 417493387
+      Data4: 1037152491
+    Path: event:/entrance bell
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1771935157
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -232299,7 +232408,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1260180101615479013, guid: 297b3f1883606a344b1ae2eeda771faf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4269086056934543480, guid: 297b3f1883606a344b1ae2eeda771faf, type: 3}
       propertyPath: m_Pivot.x
@@ -232481,3 +232590,4 @@ SceneRoots:
   - {fileID: 322679016}
   - {fileID: 1154839506}
   - {fileID: 203657229}
+  - {fileID: 1200365754}

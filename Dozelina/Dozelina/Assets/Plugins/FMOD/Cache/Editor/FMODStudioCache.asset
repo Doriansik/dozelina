@@ -1,0 +1,456 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8319678322574367008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/click button
+  m_EditorClassIdentifier: 
+  Path: event:/click button
+  Guid:
+    Data1: 124022626
+    Data2: 1275841721
+    Data3: -19419736
+    Data4: -1224894211
+  Banks:
+  - {fileID: -1919461080838607807}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 162
+--- !u!114 &-7659918017157965446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/metalarmor_FOOTSTEPS
+  m_EditorClassIdentifier: 
+  Path: event:/metalarmor_FOOTSTEPS
+  Guid:
+    Data1: 1258725884
+    Data2: 1281696185
+    Data3: 948977563
+    Data4: -91576866
+  Banks:
+  - {fileID: -1919461080838607807}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3700
+--- !u!114 &-7392092359179888405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/leaving customer
+  m_EditorClassIdentifier: 
+  Path: event:/leaving customer
+  Guid:
+    Data1: 2146690617
+    Data2: 1305593327
+    Data3: -2079606398
+    Data4: -1984088398
+  Banks:
+  - {fileID: -1919461080838607807}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3500
+--- !u!114 &-6500133420629286123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/lotnik_voice
+  m_EditorClassIdentifier: 
+  Path: event:/lotnik_voice
+  Guid:
+    Data1: -1203031509
+    Data2: 1305492235
+    Data3: -243390551
+    Data4: 1511879961
+  Banks:
+  - {fileID: -1919461080838607807}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18000
+--- !u!114 &-5655555825342375507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/note
+  m_EditorClassIdentifier: 
+  Path: event:/note
+  Guid:
+    Data1: -1396034539
+    Data2: 1298245803
+    Data3: -1541488218
+    Data4: -2005712924
+  Banks:
+  - {fileID: -1919461080838607807}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2150
+--- !u!114 &-5107612600240505520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/entrance bell
+  m_EditorClassIdentifier: 
+  Path: event:/entrance bell
+  Guid:
+    Data1: -1665575053
+    Data2: 1152699118
+    Data3: 417493387
+    Data4: 1037152491
+  Banks:
+  - {fileID: -1919461080838607807}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5700
+--- !u!114 &-2789211119338624422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639073244438844202
+  FileSizes:
+  - Name: Desktop
+    Value: 1332
+  Exists: 1
+--- !u!114 &-1919461080838607807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639073244438834526
+  FileSizes:
+  - Name: Desktop
+    Value: 6511968
+  Exists: 1
+--- !u!114 &-1539059029203302334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/soldier voice
+  m_EditorClassIdentifier: 
+  Path: event:/soldier voice
+  Guid:
+    Data1: 767505091
+    Data2: 1123169414
+    Data3: 1737739666
+    Data4: -252955075
+  Banks:
+  - {fileID: -1919461080838607807}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10503
+--- !u!114 &-775186256441032782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/neon
+  m_EditorClassIdentifier: 
+  Path: event:/neon
+  Guid:
+    Data1: 627894129
+    Data2: 1125637981
+    Data3: 554656151
+    Data4: 10298076
+  Banks:
+  - {fileID: -1919461080838607807}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1420
+--- !u!114 &-456649449555042738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/entrance bell METAL ARMOR
+  m_EditorClassIdentifier: 
+  Path: event:/entrance bell METAL ARMOR
+  Guid:
+    Data1: -1228721101
+    Data2: 1180246378
+    Data3: -1468446020
+    Data4: -1696717519
+  Banks:
+  - {fileID: -1919461080838607807}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5700
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -2789211119338624422}
+  - {fileID: -1919461080838607807}
+  EditorEvents:
+  - {fileID: -5655555825342375507}
+  - {fileID: -6500133420629286123}
+  - {fileID: -456649449555042738}
+  - {fileID: -7392092359179888405}
+  - {fileID: 3147289507758756456}
+  - {fileID: -8319678322574367008}
+  - {fileID: -775186256441032782}
+  - {fileID: -5107612600240505520}
+  - {fileID: 8546119705123714321}
+  - {fileID: -1539059029203302334}
+  - {fileID: 7537541973988455141}
+  - {fileID: 5070464403398389191}
+  - {fileID: -7659918017157965446}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -1919461080838607807}
+  StringsBanks:
+  - {fileID: -2789211119338624422}
+  cacheVersion: 131858
+  cacheTime: 639073244438844202
+  SerializableEventsDict:
+  - key: event:/note
+    index: 0
+  - key: event:/lotnik_voice
+    index: 1
+  - key: event:/entrance bell METAL ARMOR
+    index: 2
+  - key: event:/leaving customer
+    index: 3
+  - key: event:/ambient_loop
+    index: 4
+  - key: event:/click button
+    index: 5
+  - key: event:/neon
+    index: 6
+  - key: event:/entrance bell
+    index: 7
+  - key: event:/GUN
+    index: 8
+  - key: event:/soldier voice
+    index: 9
+  - key: event:/menu
+    index: 10
+  - key: event:/metalarmor voice
+    index: 11
+  - key: event:/metalarmor_FOOTSTEPS
+    index: 12
+--- !u!114 &3147289507758756456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ambient_loop
+  m_EditorClassIdentifier: 
+  Path: event:/ambient_loop
+  Guid:
+    Data1: 674355786
+    Data2: 1125557998
+    Data3: -488646781
+    Data4: -745874240
+  Banks:
+  - {fileID: -1919461080838607807}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 57000
+--- !u!114 &5070464403398389191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/metalarmor voice
+  m_EditorClassIdentifier: 
+  Path: event:/metalarmor voice
+  Guid:
+    Data1: 835143377
+    Data2: 1318396202
+    Data3: -103658575
+    Data4: -187071622
+  Banks:
+  - {fileID: -1919461080838607807}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3900
+--- !u!114 &7537541973988455141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/menu
+  m_EditorClassIdentifier: 
+  Path: event:/menu
+  Guid:
+    Data1: -200268598
+    Data2: 1221910014
+    Data3: -1100899654
+    Data4: -710611189
+  Banks:
+  - {fileID: -1919461080838607807}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 121417
+--- !u!114 &8546119705123714321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GUN
+  m_EditorClassIdentifier: 
+  Path: event:/GUN
+  Guid:
+    Data1: 805096383
+    Data2: 1173511800
+    Data3: -1320026219
+    Data4: -655323079
+  Banks:
+  - {fileID: -1919461080838607807}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 252

@@ -177,7 +177,7 @@ MonoBehaviour:
   Path: Assets/FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639073244438844202
+  lastModified: 639073302902547784
   FileSizes:
   - Name: Desktop
     Value: 1332
@@ -197,7 +197,7 @@ MonoBehaviour:
   Path: Assets/FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639073244438834526
+  lastModified: 639073302902537781
   FileSizes:
   - Name: Desktop
     Value: 6511968
@@ -318,7 +318,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -2789211119338624422}
   cacheVersion: 131858
-  cacheTime: 639073244438844202
+  cacheTime: 639073302902547784
   SerializableEventsDict:
   - key: event:/note
     index: 0

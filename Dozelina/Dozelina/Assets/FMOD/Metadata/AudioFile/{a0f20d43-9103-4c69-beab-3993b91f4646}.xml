@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{a0f20d43-9103-4c69-beab-3993b91f4646}">
+		<property name="assetPath">
+			<value>bookpageturning.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>29.269333333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ee978fd2-33ba-47fd-8485-45e907bb0fa0}</destination>
+		</relationship>
+	</object>
+</objects>

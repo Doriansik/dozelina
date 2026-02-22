@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{b1e83f88-f13b-469f-b33c-8213d152cf8f}">
+		<property name="assetPath">
+			<value>tunetank-scary-music-347554.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>121.41714285714286</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ee978fd2-33ba-47fd-8485-45e907bb0fa0}</destination>
+		</relationship>
+	</object>
+</objects>

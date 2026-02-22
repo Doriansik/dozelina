@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{c22e6757-7915-470c-9e48-cbe28db7e987}">
+		<property name="assetPath">
+			<value>SOLDIER_VOICE.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>24.237718749999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ee978fd2-33ba-47fd-8485-45e907bb0fa0}</destination>
+		</relationship>
+	</object>
+</objects>

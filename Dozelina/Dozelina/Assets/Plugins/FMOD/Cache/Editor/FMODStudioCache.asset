@@ -1,6 +1,192 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 --- !u!114 &-8319678322574367008
+=======
+--- !u!114 &-9181879248320756695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/metalarmor voice
+  m_EditorClassIdentifier: 
+  Path: event:/metalarmor voice
+  Guid:
+    Data1: 835143377
+    Data2: 1318396202
+    Data3: -103658575
+    Data4: -187071622
+  Banks:
+  - {fileID: -5908668957347819456}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3900
+--- !u!114 &-9134924395156364407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/note
+  m_EditorClassIdentifier: 
+  Path: event:/note
+  Guid:
+    Data1: -1396034539
+    Data2: 1298245803
+    Data3: -1541488218
+    Data4: -2005712924
+  Banks:
+  - {fileID: -5908668957347819456}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2150
+--- !u!114 &-8512886878653902125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/leaving customer
+  m_EditorClassIdentifier: 
+  Path: event:/leaving customer
+  Guid:
+    Data1: 2146690617
+    Data2: 1305593327
+    Data3: -2079606398
+    Data4: -1984088398
+  Banks:
+  - {fileID: -5908668957347819456}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3500
+--- !u!114 &-6319434162281163256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/menu
+  m_EditorClassIdentifier: 
+  Path: event:/menu
+  Guid:
+    Data1: -200268598
+    Data2: 1221910014
+    Data3: -1100899654
+    Data4: -710611189
+  Banks:
+  - {fileID: -5908668957347819456}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 121417
+--- !u!114 &-6269082821975015080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/metalarmor_FOOTSTEPS
+  m_EditorClassIdentifier: 
+  Path: event:/metalarmor_FOOTSTEPS
+  Guid:
+    Data1: 1258725884
+    Data2: 1281696185
+    Data3: 948977563
+    Data4: -91576866
+  Banks:
+  - {fileID: -5908668957347819456}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3700
+--- !u!114 &-5908668957347819456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639073311082255107
+  FileSizes:
+  - Name: Desktop
+    Value: 6511968
+  Exists: 1
+--- !u!114 &-4495745309583222298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/entrance bell METAL ARMOR
+  m_EditorClassIdentifier: 
+  Path: event:/entrance bell METAL ARMOR
+  Guid:
+    Data1: -1228721101
+    Data2: 1180246378
+    Data3: -1468446020
+    Data4: -1696717519
+  Banks:
+  - {fileID: -5908668957347819456}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5700
+--- !u!114 &-4073372677016587487
+>>>>>>> origin/daria2
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -299,6 +485,7 @@ MonoBehaviour:
   - {fileID: -2789211119338624422}
   - {fileID: -1919461080838607807}
   EditorEvents:
+<<<<<<< HEAD
   - {fileID: -5655555825342375507}
   - {fileID: -6500133420629286123}
   - {fileID: -456649449555042738}
@@ -312,13 +499,32 @@ MonoBehaviour:
   - {fileID: 7537541973988455141}
   - {fileID: 5070464403398389191}
   - {fileID: -7659918017157965446}
+=======
+  - {fileID: -9134924395156364407}
+  - {fileID: 4288483504992873316}
+  - {fileID: -4495745309583222298}
+  - {fileID: -8512886878653902125}
+  - {fileID: -1340967465899219662}
+  - {fileID: -4073372677016587487}
+  - {fileID: 5026837427300295973}
+  - {fileID: 8263129040804654729}
+  - {fileID: 1233649002850365040}
+  - {fileID: 5385811288283709131}
+  - {fileID: -6319434162281163256}
+  - {fileID: -9181879248320756695}
+  - {fileID: -6269082821975015080}
+>>>>>>> origin/daria2
   EditorParameters: []
   MasterBanks:
   - {fileID: -1919461080838607807}
   StringsBanks:
   - {fileID: -2789211119338624422}
   cacheVersion: 131858
+<<<<<<< HEAD
   cacheTime: 639073302902547784
+=======
+  cacheTime: 639073311082280393
+>>>>>>> origin/daria2
   SerializableEventsDict:
   - key: event:/note
     index: 0
@@ -454,3 +660,134 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 252
+<<<<<<< HEAD
+=======
+--- !u!114 &4288483504992873316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/lotnik_voice
+  m_EditorClassIdentifier: 
+  Path: event:/lotnik_voice
+  Guid:
+    Data1: -1203031509
+    Data2: 1305492235
+    Data3: -243390551
+    Data4: 1511879961
+  Banks:
+  - {fileID: -5908668957347819456}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18000
+--- !u!114 &5026837427300295973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/neon
+  m_EditorClassIdentifier: 
+  Path: event:/neon
+  Guid:
+    Data1: 627894129
+    Data2: 1125637981
+    Data3: 554656151
+    Data4: 10298076
+  Banks:
+  - {fileID: -5908668957347819456}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1420
+--- !u!114 &5385811288283709131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/soldier voice
+  m_EditorClassIdentifier: 
+  Path: event:/soldier voice
+  Guid:
+    Data1: 767505091
+    Data2: 1123169414
+    Data3: 1737739666
+    Data4: -252955075
+  Banks:
+  - {fileID: -5908668957347819456}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10503
+--- !u!114 &7803245334808725522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639073311082280393
+  FileSizes:
+  - Name: Desktop
+    Value: 1332
+  Exists: 1
+--- !u!114 &8263129040804654729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/entrance bell
+  m_EditorClassIdentifier: 
+  Path: event:/entrance bell
+  Guid:
+    Data1: -1665575053
+    Data2: 1152699118
+    Data3: 417493387
+    Data4: 1037152491
+  Banks:
+  - {fileID: -5908668957347819456}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5700
+>>>>>>> origin/daria2
